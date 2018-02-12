@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header, footer {
+  background-color: red;
+  height: 3vh;
+  width: 100%;
+  position: absolute;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+#logo {
+  cursor: pointer;
+  width:40vh;
+}
+
+#signout-btn {
+  color:white;
+  line-height: 3vh;
+  vertical-align: middle;
+  right: 5px;
+  display: inline;
+  cursor: pointer;
+  position:absolute;
+  font-weight: bold;
+}
+
+.content-wrapper{
+  position:absolute;
+  top: 3vh;
+  bottom: 3vh;
+  width: 100%;
+}
+
+#google-sign-in-btn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  margin:auto;
+}
+
+#google-sign-in-btn:hover{
+  background-color: #DDDDDD;
+}
+
+#google-sign-in-btn img {
+  height: 15px;
+  width: 15px;
+}
+
+.job-lists-wrapper {
+  background-color: lightgray;
+  height: calc(100% - 3vh - 23px);
+  width:100%;
+}
+
+.job-lists-wrapper > div:last-child {
+  height: 100%;
+  overflow-y: scroll
+}
+.job-lists-wrapper .section-title {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  height: 23px;
+}
+
+.job-item {
+  background-color: white;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 15px;
+}
+
+.job-item .item-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.job-item .item-top button {
+  background-color: #a1da6f;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+div.location-map {
+  height: calc(100% - 6vh - 100px - 3vh) !important;
+  width: 100%;
+}
+
+input#search-bar {
+  width:100%;
+  height: 3vh;
+  font-size: 20px;
+}
+
+#user-profile{
+  display: flex;
+  padding: 10px;
+  height: 100px;
+  bottom: 3vh;
+  position:absolute;
+}
+
+#user-profile img{
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+#user-profile .user-details {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.search-categories{
+  position:absolute;
+  z-index: 9;
+  background-color: white;
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+}
+
+.search-categories .selection{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.search-category{
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #DDDDDD;
+  margin-bottom:5px;
+}
+
+.search-category:hover {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
